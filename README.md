@@ -22,6 +22,7 @@ Example Part 1: https://github.com/TeamArtisansDev/flutter-getx-scaffolding-exam
 ## Getting Started
 
 - Clone the repository `git clone git@github.com:TeamArtisansDev/flutter-getx-bottom-navigation-example.git`
+- Navigate to clonsed folder `cd flutter-getx-bottom-navigation-example`
 - Get packages using `flutter pub get`
 - Run `flutter run`
 
