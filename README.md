@@ -1,16 +1,41 @@
-# getx_app
+![](https://i.postimg.cc/d1bp9zpL/part-2.png)
 
-A new Flutter project.
+# Flutter Getx - Bottom Navigation Bar Example
+
+In this example, we made a bottom navigation bar using GetX state management, we tried to write less code and separate the logics used.
+
+This example is the second part of the Flutter GetX video series we have covered the following titles:
+
+- Creating pages and GetX controllers
+- Creating BottomNavigationBar
+- Using GetBuilder widget
+- Using controller parameters inside page
+- A small counter (Bonus)
+
+Watch the tutorial video in Youtube: https://youtu.be/G9EnOCpuCrw
+
+Video Part 1: https://www.youtube.com/watch?v=TbSSNd2ZevU
+Example Part 1: https://github.com/TeamArtisansDev/flutter-getx-scaffolding-example
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- Clone the repository `git clone git@github.com:TeamArtisansDev/flutter-getx-bottom-navigation-example.git`
+- Get packages using `flutter pub get`
+- Run `flutter run`
 
-A few resources to get you started if this is your first Flutter project:
+## Follow us
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Website: https://teamartisans.com
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Facebook: https://facebook.com/TeamArtisans
+
+Twitter: https://twitter.com/TeamArtisans
+
+Instagram: https://instagram.com/TeamArtisans
+
+Medium: https://medium.com/TeamArtisans
+
+Linkedin: https://linkedin.com/company/TeamArtisans
+
+Email: contact@teamartisans.com
