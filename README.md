@@ -14,6 +14,9 @@ This example is the second part of the Flutter GetX video series we have covered
 
 Watch the tutorial video in Youtube: https://youtu.be/G9EnOCpuCrw
 
+Read Medium article: https://medium.com/teamartisans/bottom-navigation-bar-in-flutter-using-getx-a59f274b616c
+
+
 Video Part 1: https://www.youtube.com/watch?v=TbSSNd2ZevU
 
 Example Part 1: https://github.com/TeamArtisansDev/flutter-getx-scaffolding-example
