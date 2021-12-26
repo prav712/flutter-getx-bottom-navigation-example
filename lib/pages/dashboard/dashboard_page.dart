@@ -33,7 +33,7 @@ class DashboardPage extends StatelessWidget {
             showSelectedLabels: false,
             showUnselectedLabels: false,
             type: BottomNavigationBarType.fixed,
-            backgroundColor: Colors.white,
+            backgroundColor: Colors.lightBlueAccent,
             elevation: 0,
             items: [
               _bottomNavigationBarItem(
@@ -41,8 +41,8 @@ class DashboardPage extends StatelessWidget {
                 label: 'Home',
               ),
               _bottomNavigationBarItem(
-                icon: CupertinoIcons.sportscourt,
-                label: 'News',
+                icon: CupertinoIcons.camera_fill,
+                label: 'Gallery',
               ),
               _bottomNavigationBarItem(
                 icon: CupertinoIcons.bell,

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:getx_app/constants/constants.dart';
 
 import 'home_controller.dart';
 
@@ -9,19 +10,25 @@ class HomePage extends GetView<HomeController> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          controller.title,
-          style: TextStyle(color: Colors.black),
+          HOME_TITLE,
+          style: TextStyle(color: Colors.black,
+          fontStyle: FontStyle.italic,
+          fontWeight: FontWeight.bold,),
         ),
         elevation: 0,
-        backgroundColor: Colors.white,
-      ),
-      body: Container(
-        child: Center(
-          child: Text(
-            "Home Page",
-            style: TextStyle(fontSize: 20),
-          ),
+        backgroundColor: Colors.lightBlue,
+        shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(1.0),
+            side: BorderSide(color: Colors.grey)
         ),
+      ),
+      body: Stack(
+          alignment: Alignment.center,
+          children: <Widget>[
+            new Image.asset(
+              "assets/images/scene1.png",),
+            Text("someText"),
+          ]
       ),
     );
   }
