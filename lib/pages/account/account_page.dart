@@ -1,5 +1,8 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import 'account_controller.dart';
 
@@ -14,9 +17,10 @@ class AccountPage extends GetView<AccountController> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Obx(() => Text("Counter ${controller.counter.value}")),
-              RaisedButton(
-                child: Text("Increase"),
-                onPressed: () => controller.increaseCounter(),
+              FloatingActionButton(
+                onPressed: () async => await launch("https://wa.me/4741594362?text=Hello"),
+                  child: FaIcon(FontAwesomeIcons.whatsapp),
+                  backgroundColor: Colors.green.shade800
               )
             ],
           ),

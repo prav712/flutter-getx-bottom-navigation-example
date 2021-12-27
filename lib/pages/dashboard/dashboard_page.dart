@@ -33,7 +33,7 @@ class DashboardPage extends StatelessWidget {
             showSelectedLabels: false,
             showUnselectedLabels: false,
             type: BottomNavigationBarType.fixed,
-            backgroundColor: Colors.lightBlueAccent,
+            backgroundColor: Colors.white24,
             elevation: 0,
             items: [
               _bottomNavigationBarItem(
